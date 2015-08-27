@@ -1,0 +1,17 @@
+<body>
+  {{ renderPage }}
+</body>
+
+<template name="layout">
+  {{ > navbar }}
+  <div class="row facts">
+    <div class="large-12 columns">
+      {{ > yield }}
+    </div>
+  </div>
+  <script charset="utf-8">
+    $(document).ready(function() {
+      $(document).foundation();
+    });
+  </script>
+</template>
