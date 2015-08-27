@@ -1,3 +1,0 @@
-# FunFacts
-=======================
-By Marcus Barnes
